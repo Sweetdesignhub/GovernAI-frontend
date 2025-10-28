@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary-background: #ffffff;
+    --primary-foreground: #0f172a;
+    --primary-light: #f1f1f3;
+    --primary-dark: #090909;
+
+    /* Secondary Colors */
+    --secondary-background: #ebfcf4;
+    --secondary-foreground: #01af2f;
+    --secondary-light: #fafffa;
+    --secondary-dark: #0bc918;
+
+    /* Accent Colors */
+    --accent-color: #eb1700;
+    --accent-foreground: #ffffff;
+    --accent-light: #ffeeee;
+    --accent-dark: #e7000a;
+
+    /* Warning Colors */
+    --warning-color: #e17100;
+    --warning-background: #fef2f2;
+    --warning-light: #fffcfa;
+
+    /* Border Colors */
+    --border-primary: #e5e7eb;
+    --border-secondary: #e1e8f0;
+    --border-light: #fffefe;
+    --border-success: #0bc918;
+    --border-error: #eb1700;
+    --border-warning: #e17100;
+    --border-accent: #ffc9c9;
+
+    /* Text Colors */
+    --text-primary: #0f172a;
+    --text-secondary: #0f172ab2;
+    --text-muted: #1c283cb2;
+    --text-success: #01af2f;
+    --text-error: #eb1700;
+    --text-warning: #e17100;
+    --text-white: #ffffff;
+    --text-black: #000000;
+
+    /* Background Colors */
+    --bg-main: #ffffff;
+    --bg-card: #ffffff;
+    --bg-success: #ebfcf4;
+    --bg-error: #ffeeee;
+    --bg-warning: #fef2f2;
+    --bg-light: #f1f1f3;
+    --bg-accent: #fffcfa;
+
+    /* Typography Variables */
+    --font-size-xs: 10px;
+    --font-size-sm: 12px;
+    --font-size-base: 13px;
+    --font-size-md: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 18px;
+    --font-size-2xl: 20px;
+    --font-size-3xl: 22px;
+    --font-size-4xl: 28px;
+    --font-size-5xl: 33px;
+    --font-size-6xl: 36px;
+    --font-size-7xl: 37px;
+    --font-size-8xl: 38px;
+    --font-size-9xl: 42px;
+
+    /* Font Weight Variables */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Line Height Variables */
+    --line-height-xs: 10px;
+    --line-height-sm: 11px;
+    --line-height-base: 13px;
+    --line-height-md: 14px;
+    --line-height-lg: 15px;
+    --line-height-xl: 16px;
+    --line-height-2xl: 17px;
+    --line-height-3xl: 18px;
+    --line-height-4xl: 19px;
+    --line-height-5xl: 21px;
+    --line-height-6xl: 22px;
+    --line-height-7xl: 24px;
+    --line-height-8xl: 25px;
+    --line-height-9xl: 26px;
+    --line-height-10xl: 29px;
+    --line-height-11xl: 37px;
+    --line-height-12xl: 44px;
+    --line-height-13xl: 47px;
+    --line-height-14xl: 49px;
+    --line-height-15xl: 50px;
+    --line-height-16xl: 55px;
+
+    /* Letter Spacing Variables */
+    --letter-spacing-wide: 1px;
+
+    /* Spacing Variables */
+    --spacing-xs: 2px;
+    --spacing-sm: 4px;
+    --spacing-md: 6px;
+    --spacing-lg: 8px;
+    --spacing-xl: 10px;
+    --spacing-2xl: 12px;
+    --spacing-3xl: 14px;
+    --spacing-4xl: 16px;
+    --spacing-5xl: 18px;
+    --spacing-6xl: 20px;
+    --spacing-7xl: 22px;
+    --spacing-8xl: 24px;
+    --spacing-9xl: 26px;
+    --spacing-10xl: 28px;
+    --spacing-11xl: 30px;
+    --spacing-12xl: 32px;
+    --spacing-13xl: 34px;
+    --spacing-14xl: 36px;
+    --spacing-15xl: 38px;
+    --spacing-16xl: 48px;
+    --spacing-17xl: 50px;
+    --spacing-18xl: 56px;
+    --spacing-19xl: 62px;
+    --spacing-20xl: 66px;
+    --spacing-21xl: 70px;
+
+    /* Border Radius Variables */
+    --radius-xs: 3px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 10px;
+    --radius-2xl: 12px;
+    --radius-3xl: 16px;
+    --radius-4xl: 18px;
+    --radius-5xl: 20px;
+
+    /* Component-specific Variables */
+    --sidebar-width: 4%;
+    --sidebar-padding: 24px;
+    --header-bg: #ffffff;
+    --header-padding: 12px;
+    --search-bg: #ffffff;
+    --search-border: #e5e7eb;
+    --search-text: #0f172ab2;
+    --button-primary-bg: #eb1700;
+    --button-primary-text: #ffffff;
+    --button-secondary-bg: #ebfcf4;
+    --button-secondary-text: #0bc918;
+    --dropdown-bg: #ffffff;
+    --dropdown-border: #e5e7eb;
+    --dropdown-text: #0f172a;
+  }
+}

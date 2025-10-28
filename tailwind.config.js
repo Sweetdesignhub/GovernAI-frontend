@@ -1,0 +1,192 @@
+module.exports = {
+  content: ["./src/**/*.{js,ts,jsx,tsx,html,mdx}"],
+  darkMode: "class",
+  theme: {
+    screens: {
+      sm: '640px',   
+      md: '768px',    
+      lg: '1024px',   
+      xl: '1280px',
+      '2xl': '1536px'
+    },
+    extend: {
+      colors: {
+        // Primary Colors
+        primary: {
+          background: "var(--primary-background)",
+          foreground: "var(--primary-foreground)",
+          light: "var(--primary-light)",
+          dark: "var(--primary-dark)"
+        },
+        // Secondary Colors
+        secondary: {
+          background: "var(--secondary-background)",
+          foreground: "var(--secondary-foreground)",
+          light: "var(--secondary-light)",
+          dark: "var(--secondary-dark)"
+        },
+        // Accent Colors
+        accent: {
+          color: "var(--accent-color)",
+          foreground: "var(--accent-foreground)",
+          light: "var(--accent-light)",
+          dark: "var(--accent-dark)"
+        },
+        // Warning Colors
+        warning: {
+          color: "var(--warning-color)",
+          background: "var(--warning-background)",
+          light: "var(--warning-light)"
+        },
+        // Text Colors
+        text: {
+          primary: "var(--text-primary)",
+          secondary: "var(--text-secondary)",
+          muted: "var(--text-muted)",
+          success: "var(--text-success)",
+          error: "var(--text-error)",
+          warning: "var(--text-warning)",
+          white: "var(--text-white)",
+          black: "var(--text-black)"
+        },
+        // Background Colors
+        background: {
+          main: "var(--bg-main)",
+          card: "var(--bg-card)",
+          success: "var(--bg-success)",
+          error: "var(--bg-error)",
+          warning: "var(--bg-warning)",
+          light: "var(--bg-light)",
+          accent: "var(--bg-accent)"
+        },
+        // Border Colors
+        border: {
+          primary: "var(--border-primary)",
+          secondary: "var(--border-secondary)",
+          light: "var(--border-light)",
+          success: "var(--border-success)",
+          error: "var(--border-error)",
+          warning: "var(--border-warning)",
+          accent: "var(--border-accent)"
+        },
+        // Component-specific Colors
+        sidebar: {
+          background: "var(--primary-background)"
+        },
+        header: {
+          background: "var(--header-bg)"
+        },
+        search: {
+          background: "var(--search-bg)",
+          border: "var(--search-border)",
+          text: "var(--search-text)"
+        },
+        button: {
+          primary: {
+            background: "var(--button-primary-bg)",
+            text: "var(--button-primary-text)"
+          },
+          secondary: {
+            background: "var(--button-secondary-bg)",
+            text: "var(--button-secondary-text)"
+          }
+        },
+        dropdown: {
+          background: "var(--dropdown-bg)",
+          border: "var(--dropdown-border)",
+          text: "var(--dropdown-text)"
+        }
+      },
+      // Typography
+      fontSize: {
+        'xs': 'var(--font-size-xs)',
+        'sm': 'var(--font-size-sm)',
+        'base': 'var(--font-size-base)',
+        'md': 'var(--font-size-md)',
+        'lg': 'var(--font-size-lg)',
+        'xl': 'var(--font-size-xl)',
+        '2xl': 'var(--font-size-2xl)',
+        '3xl': 'var(--font-size-3xl)',
+        '4xl': 'var(--font-size-4xl)',
+        '5xl': 'var(--font-size-5xl)',
+        '6xl': 'var(--font-size-6xl)',
+        '7xl': 'var(--font-size-7xl)',
+        '8xl': 'var(--font-size-8xl)',
+        '9xl': 'var(--font-size-9xl)'
+      },
+      fontWeight: {
+        'normal': 'var(--font-weight-normal)',
+        'medium': 'var(--font-weight-medium)',
+        'semibold': 'var(--font-weight-semibold)',
+        'bold': 'var(--font-weight-bold)'
+      },
+      lineHeight: {
+        'xs': 'var(--line-height-xs)',
+        'sm': 'var(--line-height-sm)',
+        'base': 'var(--line-height-base)',
+        'md': 'var(--line-height-md)',
+        'lg': 'var(--line-height-lg)',
+        'xl': 'var(--line-height-xl)',
+        '2xl': 'var(--line-height-2xl)',
+        '3xl': 'var(--line-height-3xl)',
+        '4xl': 'var(--line-height-4xl)',
+        '5xl': 'var(--line-height-5xl)',
+        '6xl': 'var(--line-height-6xl)',
+        '7xl': 'var(--line-height-7xl)',
+        '8xl': 'var(--line-height-8xl)',
+        '9xl': 'var(--line-height-9xl)',
+        '10xl': 'var(--line-height-10xl)',
+        '11xl': 'var(--line-height-11xl)',
+        '12xl': 'var(--line-height-12xl)',
+        '13xl': 'var(--line-height-13xl)',
+        '14xl': 'var(--line-height-14xl)',
+        '15xl': 'var(--line-height-15xl)',
+        '16xl': 'var(--line-height-16xl)'
+      },
+      letterSpacing: {
+        'wide': 'var(--letter-spacing-wide)'
+      },
+      // Spacing
+      spacing: {
+        'xs': 'var(--spacing-xs)',
+        'sm': 'var(--spacing-sm)',
+        'md': 'var(--spacing-md)',
+        'lg': 'var(--spacing-lg)',
+        'xl': 'var(--spacing-xl)',
+        '2xl': 'var(--spacing-2xl)',
+        '3xl': 'var(--spacing-3xl)',
+        '4xl': 'var(--spacing-4xl)',
+        '5xl': 'var(--spacing-5xl)',
+        '6xl': 'var(--spacing-6xl)',
+        '7xl': 'var(--spacing-7xl)',
+        '8xl': 'var(--spacing-8xl)',
+        '9xl': 'var(--spacing-9xl)',
+        '10xl': 'var(--spacing-10xl)',
+        '11xl': 'var(--spacing-11xl)',
+        '12xl': 'var(--spacing-12xl)',
+        '13xl': 'var(--spacing-13xl)',
+        '14xl': 'var(--spacing-14xl)',
+        '15xl': 'var(--spacing-15xl)',
+        '16xl': 'var(--spacing-16xl)',
+        '17xl': 'var(--spacing-17xl)',
+        '18xl': 'var(--spacing-18xl)',
+        '19xl': 'var(--spacing-19xl)',
+        '20xl': 'var(--spacing-20xl)',
+        '21xl': 'var(--spacing-21xl)'
+      },
+      // Border Radius
+      borderRadius: {
+        'xs': 'var(--radius-xs)',
+        'sm': 'var(--radius-sm)',
+        'md': 'var(--radius-md)',
+        'lg': 'var(--radius-lg)',
+        'xl': 'var(--radius-xl)',
+        '2xl': 'var(--radius-2xl)',
+        '3xl': 'var(--radius-3xl)',
+        '4xl': 'var(--radius-4xl)',
+        '5xl': 'var(--radius-5xl)'
+      }
+    }
+  },
+  plugins: []
+};
